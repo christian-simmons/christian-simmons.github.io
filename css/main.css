@@ -1,16 +1,18 @@
-body        { background-color: #FCEBB6;
-              	background-color: #333;
-              	color: #221811;
-                font-family: "Arial Black", Gadget, sans-serif;}
-h1          { font-family: "Arial Black", Gadget, sans-serif;
+body        { margin: 0;
+                padding: 0;
+                background: #0000 url('images/page_bg') top repeat-x;
+                font-family: "Oswald Light", Arial, Verdana, sans-serif;
+                color: #000;}
+h1          { font-family: "Oswald Light", Gadget, sans-serif;
                 font-size: 24px;
                 font-style: normal;
                 font-variant: normal;
                 font-weight: 700;
                 line-height: 26.4px; }
 h2, h3, h4, p, div, ul, dl
-            { padding-left: 3em;
-                padding-right: 2em;}
+            { padding-left: 1em;
+                padding-right: 2em;
+                align: left;}
 h4          { background-color: #D2B48C;
             	 font-size: 1.2em;
             	 padding-left: 10px;
@@ -19,32 +21,30 @@ h4          { background-color: #D2B48C;
             	 text-transform: uppercase;
               clear: left; }
 main        { padding: 0px 0px 2em 0px;
-	               margin-left: 200px;
-	               background-color: #FCEBB6;}
+	               margin-left: 200px;}
 nav         { text-align: center;
                 font-weight: bold;
                 font-size: 1.5em;
-                padding-top: 10px;
+                padding-top: 80px;
                 float: left;
                 width: 200px;}
 nav a:link
-            { color: #FEF6C2; }
+            { color: #8e9fde; }
 nav a:visited
-            { color: #D2B48C; }
+            { color: #375adb; }
 nav a:hover
             { color: #CC9933; }
 nav ul
             { list-style-type: none;
-                padding-left: 0;}
-footer      { background-color: #D2B48C;
-                font-weight: .2em;
-                font-size: .50em;
+                padding-left: 0;
+                padding-bottom: 10px;}
+footer      { font-weight: .1em;
+                font-size: .8em;
                 text-align: center;
-                font-style: italic;
                 padding-bottom: 10px;
                 border-top: 2px #221811;}
 img         { padding-left: 10px;
-                padding-right: 10px;}
+                padding-right: 0px;}
 nav a       { text-decoration: none; }
 *           { box-sizing: border-box; }
 #wrapper    { background-color: #231814;
@@ -57,3 +57,9 @@ nav a       { text-decoration: none; }
 #details    { padding-left: 20%;
                 padding-right: 20%;
                 overflow: auto;}
+#headshot   { width: 650px;
+                height: auto;
+                float: right;
+                padding-right: 500px;}
+#foot       { background: url(background.jpg) repeat-x center left;
+                height: 100px;}

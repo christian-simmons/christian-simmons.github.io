@@ -56,6 +56,11 @@ nav a       { text-decoration: none; }
                 height: auto;
                 float: right;
                 padding-right: 500px;}
+.portlist    { list-style-type: none;}
+.portdesc    { float: right;
+                padding-right: 600px;}
+.portpics    { float: left;
+                padding-left: 400px;}
 .footer      { position: fixed;
                 left: 0;
                 bottom: 0;

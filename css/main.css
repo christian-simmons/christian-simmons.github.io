@@ -3,7 +3,7 @@ body        { margin: 0;
                 background: #0000 url('images/page_bg') top repeat-x;
                 font-family: "Oswald Light", Arial, Verdana, sans-serif;
                 color: #000;}
-                
+
 h1          { font-family: "Oswald Light", Gadget, sans-serif;
                 font-size: 24px;
                 font-style: normal;
@@ -100,8 +100,7 @@ nav a       { text-decoration: none; }
 			  margin: 0;
 			  box-shadow: none; }
 
-	header { background-image: url(javalogomobile.gif);
-		   background-repeat: no-repeat;
+	header { background-repeat: no-repeat;
 		   background-position: center;
 		   height: 80px; }
 
@@ -130,7 +129,7 @@ nav a       { text-decoration: none; }
 	nav a { display: block;
 		  padding: 0.2em;
 		  width: auto;
-		  border-bottom: 1px;
+		  border-bottom: .1em;
 		  border-bottom-color: #330000; }
 
 	nav li { display: block; }
@@ -140,11 +139,6 @@ nav a       { text-decoration: none; }
 
 	details { padding-left: 0;
 		   padding-right: 0; }
-
-	.floatright { display: none; }
-
-	.floatleft { padding-left: 0.5em;
-			padding-right: 0.5em; }
 
 	#mobile { display: inline; }
 

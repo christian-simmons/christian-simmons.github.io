@@ -8,14 +8,14 @@
       <button>Contact me</button>
     </div>
   </div> 
-    <div id="nav" style="position: absolute; top: 0px; left: 0px;">
+    <div id="index-nav" style="position: absolute; top: 0px; left: 0px;">
       <nav>
         <ul>
-          <li><a href="index.php">Home</a></li>
-          <li><a href="portfolio.php">Projects</a></li>
-          <li><a href="ChristianSimmonsResume.pdf" id="resume-link" target="_blank">Resume</a></li>
-          <li><a href="bio.php">Bio</a></li>
-      <li><a href="index.php">EN</a> | <a href="fr/index.php">FR</a></li>
+          <a href="index.php">Home</a>
+          <a href="portfolio.php">Projects</a></li>
+          <a href="ChristianSimmonsResume.pdf" id="resume-link" target="_blank">Resume</a>
+          <a href="bio.php">Bio</a>
+          <a href="index.php">EN</a> | <a href="fr/index.php">FR</a>
     </ul>
   </nav>
 </div>

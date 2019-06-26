@@ -84,10 +84,17 @@ nav a       { text-decoration: none; }
                 background-color: #1f2633;
                 color: white;}
 
-#nav         { padding: 0em;
+#index-nav   { padding: 0em .2em .2em 0em;
                 text-align: center;
                 font-weight: bold;
                 font-size: 1.5em;
+                padding-top: 10px;
+                width: 200px; }
+
+#nav         { padding: 0em 1em 0em;
+                text-align: left;
+                font-weight: normal;
+                font-size: 1.1em;
                 padding-top: 80px;
                 float: left;
                 width: 200px;}

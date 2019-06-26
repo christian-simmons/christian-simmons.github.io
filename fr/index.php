@@ -1,21 +1,26 @@
 <?php include "template/header.php"; ?>
-<li><a href="../index.php">EN</a> | <a href="index.php">FR</a></li>
-</ul>
-    </nav>
-      </div>
-    <main>
-      <p>
-        C'est mon site Web. Je l'ai construit moi-même et il contient tout sur mon CV et un peu plus.&nbsp;
-        <img src="../images/file.jpg" alt="Christian Simmons" id="headshot">
-        <br>
-        Il a été construit en utilisant:
+  <div class="hero-image">
+    <div class="hero-text">
+      <h1>Moi, c'est Christian Simmons</h1>
+      <p>Et je suis un étudiant en mathématiques</p>
+      <button>Contacter moi</button>
+    </div>
+  </div> 
+    <div id="nav" style="position: absolute; top: 0px; left: 0px;">
+      <nav>
         <ul>
-          <li>HTML et CSS</li>
-          <li>Github pour l'hébergement et mettre à jour.</li>
-        </ul>
-      </p>
-    </main>
-      <br><br>
+          <li><a href="index.php">Accueil</a></li>
+          <li><a href="portfolio.php">Dossier Professionnel</a></li>
+          <li><a href="ChristianSimmonsResume.pdf" id="resume-link" target="_blank">CV</a></li>
+          <li><a href="bio.php">Bio</a></li>
+      <li><a href="../index.php">EN</a> | <a href="index.php">FR</a></li>
+    </ul>
+  </nav>
+</div>
+<main>
+
+</main>
+<br><br>
       <div class="footer">
       <p>
         simmonschristianr@gmail.com<br>

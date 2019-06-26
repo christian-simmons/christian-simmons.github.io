@@ -1,4 +1,6 @@
 <?php include "template/header.php"; ?>
+<?php include "template/nav.php"; ?>
+
 <li><a href="bio.php">EN</a> | <a href="fr/bio.php">FR</a></li>
         </ul>
       </nav>

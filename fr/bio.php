@@ -1,5 +1,7 @@
 <?php include "template/header.php"; ?>
-<li><a href="../bio.php">EN</a><hr width="50%" size="1" align="center" color="#1f2633"> <a href="bio.php">FR</a></li>
+<?php include "template/nav.php"; ?>
+
+<li><a href="../bio.php">EN</a> | <a href="bio.php">FR</a></li>
   </ul>
     </nav>
       </div>
